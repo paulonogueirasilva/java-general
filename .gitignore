@@ -1,24 +1,36 @@
-# Compiled class file
-*.class
+# OS & Metadados do Sistema
+.DS_Store
+*.sh.bak
 
-# Log file
-*.log
-
-# BlueJ files
+# Configurações de IDEs e Editores
+.idea/
+*.iml
+.classpath
+.project
+.settings/
+.vscode/
 *.ctxt
 
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
-
-# Package Files #
+# Artefatos de Compilação & Binários Java
+*.class
 *.jar
 *.war
-*.nar
 *.ear
+*.nar
+
+# Pacotes e Arquivos Compactados
 *.zip
 *.tar.gz
 *.rar
 
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+# Diretórios de Build (Maven / Gradle / IDEs)
+target/
+build/
+.gradle/
+out/
+.mtj.tmp/
+
+# Logs e Relatórios de Erro da JVM
+*.log
 hs_err_pid*
 replay_pid*
